@@ -1,0 +1,168 @@
+
+:root{
+    --dark-purple: #4A148C;
+    --light-purple: #6F54BD;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+
+
+header{
+	background-color: black;
+	height: 64px;
+	display: flex;
+	align-items: center;
+
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	padding: 0 48px;
+
+	transition: all 0.3s ease-in;
+}
+
+header h1{
+	font-size: 24px;
+	font-weight: 900;
+
+	font-style: italic;
+	color: white;
+	flex: 1 0 0;
+
+line-height: 65px;
+}
+
+header nav{
+	flex: 1 0 0;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav a {
+	margin: 0 0 0 16px;
+	text-decoration: none;
+	color: white;
+}
+
+header.scrolled{
+	height: 100px;
+	background-color: black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.hero{
+	width: 1440px;
+	height:846px;
+
+	margin-left: auto;
+	margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero2.jpg);
+
+}
+
+.main-content{
+	width: 1440px;
+	margin-top: 128px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.main-content a{
+	width: 406px;
+	height: 464px;
+}
+
+
+h2{	
+	font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+padding-top: 540px;
+    margin-left: 80px;
+    color: white;
+}
+
+h3{
+ float: left;
+    display: block;
+    margin-top: 48px; 
+    color: white;
+      margin-left: 80px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+}
+
+.work{
+	width: 400px;
+	height: 464px;
+	background-image: url(img/3dimg1.png);
+	  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        display: inline-block;
+        float: left;
+}
+.work2{
+	width: 400px;
+	height: 464px;
+	background-image: url(img/3dimg2.png);
+	  background-size: cover;
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-top: 68px;
+     
+}
+.work3{
+	width: 827px;
+	height: 996px;
+	background-image: url(img/content-img2.jpg);
+	  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      display: inline-block;
+    float: right;
+
+}
+
+.main-content{
+	width: 1280px;
+	height: 996px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 128px;
+
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+		
+	}
+	to{
+		opacity: 1;
+		
+	}
+}

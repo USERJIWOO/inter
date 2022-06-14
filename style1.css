@@ -1,0 +1,193 @@
+*{margin: 0;
+	padding: 0;
+	color: black;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	width: 1440px;
+	margin-right: auto;
+	margin-left: 	auto;
+
+}
+
+h2{
+	font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+
+color: #000000;
+}
+header{
+	background-color: black;
+	height: 64px;
+	display: flex;
+	
+	align-items: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	padding: 0 48px;
+
+	transition: all 0.3s ease-in;
+}
+
+header h1{
+	font-size: 24px;
+	font-weight: 900;
+
+	font-style: italic;
+	color: white;
+	flex: 1 0 0;
+
+line-height: 65px;
+}
+
+header nav{
+	flex: 1 0 0;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav a {
+	margin: 0 0 0 16px;
+	text-decoration: none;
+	color: white;
+}
+
+header.scrolled{
+	height: 100px;
+	background-color: black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.hero{
+	width: 1440px;
+	height: 448px;
+	background-image: url(IMG/2d_2.jpg);
+	background-repeat:no-repeat;
+  background-size:cover; 
+  background-position:center center; 
+}
+.hero h2{
+padding-top: 160px;
+margin-left: 88px;
+color: white;
+}
+
+.intro{
+	width: 1440px;
+	height: 852px;
+	margin-top: 80px;
+	margin-bottom: 130px;
+}
+
+.intro h2{
+	padding: 100px;
+	text-align: center;
+	margin-bottom: 48px;
+}
+.intro div{
+display: block; 
+float: right;
+margin-right: 180px;
+}
+
+.intro p {
+	width: 480px;	
+	font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+}
+
+.intro img{
+	margin-left: 180px;
+
+}
+
+.skill{
+	height: 320px;
+	background-color: #6F54BD;
+	margin-bottom: 128px;
+}
+
+
+.skill h2{
+	text-align: center;
+	padding-top: 48px;
+	margin-bottom: 48px;
+
+}
+
+
+
+.work{
+	height: 736px;
+
+		margin-bottom: 128px;
+
+}
+
+.work1{
+	margin-left: 80px;
+	margin-right: 32px;
+}
+
+.work h2{
+	text-align: center;
+	padding-top: 48px;
+	margin-bottom: 48px;
+}
+
+.icon{
+	margin-left: 440px;
+	margin-right: 440px;
+
+}
+
+.icon1{
+	margin-right: 32px;
+	border-radius: 16px;
+}
+.icon2{
+	margin-right: 32px;
+	border-radius: 16px;
+}
+
+.icon3{
+	margin-right: 32px;
+	border-radius: 16px;
+}
+
+.icon4{
+	margin-right: 32px;
+	border-radius: 16px;
+}
+
+.icon5{
+
+	border-radius: 16px;
+}
+
+
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+		
+	}
+	to{
+		opacity: 1;
+		
+	}
+}
